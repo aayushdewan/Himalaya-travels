@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<style type="text/css">
+
+	.nav{
+		height:50px;
+		background-color:#BFD8D2;
+	
+	
+	}
+	.nav a{
+		text-decoration:none;
+		color:white;
+		font-family: 'Arvo', serif;
+		
+	}
+	.nav button{
+		padding: 8px;
+		background-color:#BFD8D2; 
+	}
+	.nav button:hover{
+		background-color:#CD5360;
+	}
+
+	.nav th{
+		font-size:20px;
+		padding:10px;
+	}
+
+		body{
+			background-image: url("him4.jpg");
+			background-size:cover;
+		}
+		.input{
+			width: 400px;
+			height: 500px;
+			background-color:#CD5360;
+			margin: auto;
+			border-radius: 5px;
+
+		}
+
+		.input h4{
+			font-family: 'Arvo',serif;
+			padding: 10px;
+			color: white; 
+
+		}
+
+		.input button{
+			width: 90%;
+			padding: 12px;
+			border-radius: 6px;
+			margin: 10px;
+		}
+
+		#bt1{
+			background-color: blue;
+		}
+		#text{
+			color:white;
+			font-family: 'Arvo',serif;
+			font-size: 15px;
+
+
+		}
+		.input img{
+			width: 30px;
+			height: 30px;
+		}
+
+		#lemail{
+			padding: 12px;
+			width: 80%;
+			border-radius: 6px;
+			margin: 10px;
+		}
+		#mail{
+			position: relative;
+			margin:-14px -48px;
+		}
+
+		#lpass{
+			padding: 12px;
+			width: 80%;
+			border-radius: 6px;
+			margin: 10px;
+		}
+		#pass{
+			position: relative;
+			margin:-14px -48px;
+		}
+
+		#check{
+			color: white;
+			font-family: 'Arvo',serif;
+
+		}
+
+		#linking{
+			text-decoration: none;
+			float:right;
+			color: white;
+			font-family: 'Arvo',serif;
+
+		}
+
+		#text2{
+			color: white;
+			font-family: 'Arvo',serif;
+			font-size: 15px; 
+
+		}
+
+		#bt2{
+			background-color:#BFD8D2; 
+
+		}
+
+
+
+
+		
+	</style>
+</head>
+<body>
+
+<div class="nav">
+<table align="right">
+<tr>
+<th style="font-family:'Mogra', cursive; color:white; ">Himalaya Travels</th>
+<th><img src="travel.png" style="height: 20px;"></th>
+<th><button><a href="">Home</a></button></th>
+<th><button><a href="">SignUp</a></button></th>
+<th><button><a href="">MakeMytrip</a></button></th>
+</tr>
+</table>
+</div>
+
+<form action="" method="POST">
+<div class="input">
+<h4 align="center">Login</h4><hr style="margin:10px;" >
+
+<button id="bt1">
+	<span id="text">Sign In With Facebook</span>
+	<img src="facebook.png">
+</button><hr style="margin: 10px;">
+
+<input type="email" name="email" placeholder="Email" id="lemail" required>
+<img src="mail.png" id="mail">
+<input type="password" name="password" placeholder="Password" id="lpass" required>
+<img src="key.png" id="pass"><br><br>
+<input type="checkbox" name="checking" value="remember"><span id="check">Remember me</span>
+<a href="" id="linking">Forgot Password?</a><br><br>
+<button id="bt2">
+	<span id="text2">Login</span>
+</button><hr style="margin: 10px;">
+
+
+	
+</div>
+
+
+</form>
+
+</body>
+</html>
